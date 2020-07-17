@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2017"],
+    "module": "CommonJS",
+    "strictNullChecks": true,
+    "target": "ES5",
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "outDir": "build",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "types": ["jest", "node"],
+    "skipLibCheck": true,
+  },
+  "compileOnSave": true,
+  "include": ["src/**/*", "test/**/*"],
+  "exclude": ["node_modules",]
+}
